@@ -1,0 +1,137 @@
+body {
+    font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    margin: 0;
+    padding: 0;
+	background-color: #2a2e34;
+	color: bisque;
+}
+
+header {
+	font-family: Arial, Black;
+    width: 100%;
+    background-color: #333;
+    color: #2a2e34;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.gradient {
+    background: linear-gradient(90deg, #c9a227 0%, #ffe169 50%, #6e4c0d 100%);
+}
+
+.container {
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+.product img {
+	max-width: 100%;
+	height: auto;
+}
+section:nth-of-type(even) {
+}
+
+footer {
+	font-family: Arial, Black;
+    background: linear-gradient(90deg, #c9a227 0%, #ffe169 50%, #6e4c0d 100%);
+    color:#2a2e34;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/*Animação logo*/
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+/*Formulario*/
+
+.form-container {
+	background-color: floralwhite;
+	color: #0a0908;
+	padding: 8px 200px 8px 200px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 500px;
+}
+.form-group {
+	margin-bottom: 25px;
+}
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+	width: 98%;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.form-group textarea {
+	resize: vertical;
+}
+.form-group button {
+	background-color: #333;
+	color: antiquewhite;
+	border: none;
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+.form-group button:hover {
+	background-color: darkblue;
+}
